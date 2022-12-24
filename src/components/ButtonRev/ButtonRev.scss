@@ -1,0 +1,17 @@
+.btnRev {
+  padding: 10px;
+  border-radius: 3px;
+  background: transparent;
+  font-family: inherit;
+  color: var(--dark-800);
+  transition: 0.4s;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid var(--dark-800);
+}
+
+.btnRev:hover {
+  background: var(--dark-800);
+  color: var(--white-100);
+}

@@ -1,0 +1,48 @@
+.card {
+  background: var(--white-100);
+  width: 475px;
+  height: 210px;
+  box-shadow: 2px 3px 3px 0px var(--shadow);
+  border-radius: 6px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .cardWrapper {
+    width: 100%;
+    gap: 40px;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+
+      .name {
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .expenseBudget {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 3px;
+
+        .yourBudget {
+          font-size: 16px;
+        }
+        .maxBudget {
+          font-size: 13px;
+          color: var(--dark-600);
+        }
+      }
+    }
+    .btnGroup {
+      display: flex;
+      justify-content: end;
+      gap: 20px;
+    }
+  }
+}

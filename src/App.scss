@@ -1,0 +1,10 @@
+.app {
+  margin: 25px 20px;
+  .cardGrp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 40px;
+  }
+}

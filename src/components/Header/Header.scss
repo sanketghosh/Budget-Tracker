@@ -1,0 +1,15 @@
+.header {
+  background: var(--white-100);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  padding: 5px 20px;
+  border-radius: 7px;
+  margin: 20px 0px;
+
+  .btnGrp {
+    display: flex;
+    gap: 30px;
+  }
+}

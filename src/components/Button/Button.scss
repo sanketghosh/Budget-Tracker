@@ -1,0 +1,16 @@
+.btn {
+  padding: 10px;
+  border-radius: 3px;
+  background: var(--dark-800);
+  font-family: inherit;
+  color: var(--white-100);
+  font-size: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid var(--dark-600);
+}
+
+.btn:hover {
+  background: var(--dark-600);
+}
