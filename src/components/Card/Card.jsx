@@ -10,6 +10,12 @@ import Button from "../Button/Button";
 import ButtonRev from "../ButtonRev/ButtonRev";
 
 const Card = ({ title, yourExpense, maxBudget }) => {
+  const ratio = yourExpense / maxBudget;
+
+  const cardBg = {
+    backgroundColor: "red",
+  };
+
   return (
     <div className="card">
       <div className="cardWrapper">
@@ -25,10 +31,10 @@ const Card = ({ title, yourExpense, maxBudget }) => {
             </span>
           </div>
         </div>
-        <ProgressBar />
+        <ProgressBar yourExpense={yourExpense} maxBudget={maxBudget} min={0} />
         <div className="btnGroup">
-          <Button />
-          <ButtonRev />
+          <Button title="add expense" />
+          <ButtonRev title="view expense" />
         </div>
       </div>
     </div>

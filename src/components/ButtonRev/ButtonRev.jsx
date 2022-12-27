@@ -1,7 +1,7 @@
 import "./ButtonRev.scss";
 
-const ButtonRev = () => {
-  return <button className="btnRev">Button Rev</button>;
+const ButtonRev = ({ title }) => {
+  return <button className="btnRev">{title}</button>;
 };
 
 export default ButtonRev;

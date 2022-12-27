@@ -10,7 +10,7 @@ const App = () => {
     <div className="app">
       <Header />
       <div className="cardGrp">
-        <Card title="Netflix" yourExpense={200} maxBudget={1000} />
+        <Card title="Netflix" yourExpense={600} maxBudget={1000} />
       </div>
     </div>
   );

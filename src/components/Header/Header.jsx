@@ -9,8 +9,8 @@ const Header = () => {
     <div className="header">
       <Logo />
       <div className="btnGrp">
-        <Button />
-        <ButtonRev />
+        <Button title="add budget" />
+        <ButtonRev title="add expense" />
       </div>
     </div>
   );
